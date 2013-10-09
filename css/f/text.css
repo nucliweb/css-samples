@@ -1,0 +1,277 @@
+/* CSS Document */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu a{
+	font-family: DINRegular, Arial, Helvetica, sans-serif;
+	color: #424A52;
+	text-decoration: none;
+	font-size:14px;
+}
+#menu a:hover,
+#menu a.selected{color: #B1005D;}
+/* - init: HOME -------- */
+.display-slide h2{
+	font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #424A52;
+}
+.display-slide h3{
+	font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	color: #B1005D;
+}
+.display-slide p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #424A52;
+	width: 300px;
+}
+#consells h4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #FFFFFF;
+}
+.consell h1{
+	font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 50px;
+	color: #F8971D;	
+}
+.consell p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	height: 80px;
+	padding-right: 30px;
+}
+.consell a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: underline;
+	color: #FFFFFF;
+
+}
+#suport span{
+	font-size: 12px;
+	display: block;
+	margin-bottom: 10px;
+	text-align:center;
+}
+/* - init: END --------- */
+
+
+#column-left h1{
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#column-content h1{
+	font-family: DINRegular, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #A2224B;
+	margin-bottom: 20px;
+}
+#column-content h1.news{
+	margin-bottom: 0px
+}
+#noticies h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+span.date{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	display:block;
+}
+#noticies a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-top: -10px;
+	display:inherit;
+}
+
+#column-content a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+}
+#column-content strong,
+#column-content b,
+#column-text strong,
+#column-text b{color: #A2224B;}
+
+#column-content p,
+#column-text{
+	margin-bottom: 20px;
+	color: #424A52;
+	font-size: 12px;
+	line-height: 18px;
+}
+#column-images span{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 10px;
+	color: #424A52;
+	width: 160px;
+}
+
+/* - init: BLOG -------- */
+#blog{
+	border-bottom: 1px dashed #879099;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+#blog h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#blog span.date{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #424A52;
+	margin-bottom: 5px;
+	display: inline-block;
+	margin-right: 10px;
+}
+#blog span.author{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+span.author-detall{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#blog a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-top: -10px;
+	display:inherit;
+}
+#blog-reply{
+	padding-left: 30px;
+
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #879099;
+}
+#blog-reply h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#blog-reply span.date{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #424A52;
+	margin-bottom: 5px;
+	display: inline-block;
+	margin-right: 10px;
+}
+#blog-reply span.author{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#blog-reply span.author-detall{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	display:block;
+}
+#blog-reply a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A2224B;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-top: -10px;
+	display:inherit;
+}
+/* - end: BLOG -------- */
+/* - init: FOOTER -------- */
+#footer a{
+	font-family: DINRegular, Arial, Helvetica, sans-serif;
+	color: #424A52;
+	text-decoration: none;
+	font-size:13px;
+}
+/* - end:  FOOTER ------- */
+
+
+/* @font-face ---------------------------------------- */
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('../fonts/quicksandbook-regular-webfont.eot');
+    src: url('../fonts/quicksandbook-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksandbook-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksandbook-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksandbook-regular-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINLight';
+    src: url('../fonts/din-ligh-webfont.eot');
+    src: url('../fonts/din-ligh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-ligh-webfont.woff') format('woff'),
+         url('../fonts/din-ligh-webfont.ttf') format('truetype'),
+         url('../fonts/din-ligh-webfont.svg#DINLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINRegular';
+    src: url('../fonts/din-regular-webfont.eot');
+    src: url('../fonts/din-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-regular-webfont.woff') format('woff'),
+         url('../fonts/din-regular-webfont.ttf') format('truetype'),
+         url('../fonts/din-regular-webfont.svg#DINRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINMedium';
+    src: url('../fonts/din-medium-webfont.eot');
+    src: url('../fonts/din-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-medium-webfont.woff') format('woff'),
+         url('../fonts/din-medium-webfont.ttf') format('truetype'),
+         url('../fonts/din-medium-webfont.svg#DINMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

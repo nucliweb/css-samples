@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../../images/login/background.jpg) 0 0 repeat-x;
+	padding-top: 193px;
+	text-align: center;
+}
+
+input{
+	background: url(../../images/login/bgField.gif) 0 0 no-repeat;
+	width: 227px; /* 267px - padding-left */
+	height: 27px; /* 32px - paddinf-top */
+	padding-left: 40px;
+	padding-top: 5px;
+	border: 0;
+	font-size: 16px;
+	color: #686e75;
+}
+.tokenContent{
+	margin-top: 30px;
+	text-align: right;
+	width: 585px;
+	position: absolute;
+	left: 50%;
+	margin-left: -292px;
+}
+.tokenContent span{
+	display: inline-block;
+	color: #424A52;
+	font-size: 13px;
+	padding: 5px;
+}
+.tokenImage{
+	margin-bottom: -10px;
+}
+.token{
+	background: url(../../images/login/bgToken.gif) 0 0 no-repeat;
+	width: 70px; /* 267px - padding-left */
+	height: 25px; /* 30px - paddinf-top */
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 0;
+	font-size: 16px;
+	color: #808080;
+}
+
+.toolTipCorporate{
+	position: absolute;
+	top: 220px;
+	left: 58%;
+	display: none;
+}
+.toolTipTop{
+	background: url(../../images/bgToolTip.gif) 0 0 no-repeat;
+	width: 208px;
+	height: 10px;
+}
+.toolTipConntet{
+	background: url(../../images/bgToolTipContent.gif) 0 0 repeat-y;
+	width: 188px; /* 208px - padding*/
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #36424a;
+	line-height: 14px;
+	text-align: left;
+}
+.toolTipBottom{
+	background: url(../../images/bgToolTip.gif) 0 -10px no-repeat;
+	width: 208px;
+	height: 10px;
+}

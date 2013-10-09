@@ -1,0 +1,213 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+
+
+a.button-menu {
+	background-color: #EFEFEF;
+	border-radius: 5px;
+	color: #353535;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+	padding: 5px 8px;
+	
+	&:hover,
+	&:visited{
+		color: #353535;
+		text-decoration: none;
+	}
+}
+ // Menu Header -----------------------------------
+.headerMenu{
+	background-color: $invertiaWebRed;
+	
+	a,a:hover,a:visited{
+		color: white;
+		display: inline-block;
+		width: auto;
+		margin-left: 5px;
+		font-size: .75em;
+		span{
+			display: inline-block;
+			margin-right: 3px;
+		}
+	}
+} // End .headerMenu
+
+ // Menu Header -----------------------------------
+ nav{
+ 	//display: none;
+ 	height: 0px;
+ 	overflow: hidden;
+	@include transition (height 1.0s ease-in-out);
+ 	&.show{height:auto;}
+ 	
+ 	ul{margin-bottom: 1px;}
+	li{
+		display: inline-block;
+		width: 48%;		
+		margin: 2px;
+		//@include linear-gradient(to right, $itemMenuDark, $itemMenuLight, $fallback: $itemMenuDark);
+		@include horizontal($itemMenuDark, $itemMenuLight);
+		a{
+			color:black;
+			display: block;
+			padding: 8px;
+			&:hover{text-decoration: none}
+		}
+	}
+ } // End nav
+
+.blockHome{
+	color: white;
+	padding: 8px 10px;
+	h1{
+		font-size: em(14);
+		margin-bottom: 0;
+	}
+	h2{
+		font-family: 'Swiss',sans-serif;
+		font-weight: normal;
+		color: black;
+		font-size: em(21);
+		margin-bottom: 5px;
+		b{
+			font-family: 'SwissBold',sans-serif;
+			color: white;
+		}
+	}
+}
+
+.blockiWebLanding{@include iWebLandingGrad;}
+.blockiWebRanking{@include iWebRankingGrad;}
+.blockiWeblinKing{@include iWeblinKingGrad;}
+.blockiWebStrategy{@include iWebStrategyGrad;}
+.blockiWebConector{@include iWebConectorGrad;}
+.blockiWebTrade{@include iWebTradeGrad;}
+
+.block1{
+	@include radial-gradient(circle at 50% 50%, rgb(177, 216, 242), rgb(0, 139, 205), $fallback: rgb(177, 216, 242));
+}
+.block2{
+	@include linear-gradient(to right, red, white, $fallback: red);
+}
+
+section{
+	padding: 15px;
+	h2{
+		font-size: em(18);
+		font-weight: 300;
+		b::before{
+			content:'';
+			display:table;
+		}
+	}
+	p{
+		color: #a09f9f;
+		font-size: em(14);
+		line-height: em(22);
+		text-align: justify;
+	}
+	.products{
+		margin-bottom: 15px;
+		text-align: center;
+		div{
+			display: inline-block;
+			text-align: center;
+			width: 23%;
+		}
+	}
+}
+
+// Footer -------------------
+.bg-footer{
+	background: url(./images/bg-footer-320.jpg) 50% 0 no-repeat #eb002b;
+	background-size: cover;
+	padding-bottom: 133px;
+}
+.socials{
+	border-bottom: 1px solid #a09f9f;
+	border-top: 1px solid #a09f9f;
+	min-height: 30px;
+}
+footer{
+	background-color: #eb002b;
+	color: white;
+	font-size: em(14);
+	font-weight: 300;
+	padding: 20px;
+	span{
+		vertical-align: middle;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	p{
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 0px;
+	}
+	a,a:visited,a:hover{
+		color: white;
+		display: block;
+		margin-bottom: 5px;
+	}
+}
+
+// Tools --------------------------------------
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-indent: 2000px;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

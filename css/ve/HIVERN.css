@@ -1,0 +1,176 @@
+/* =============================================================================
+   Estils específics de l'estació ESTIU
+   ========================================================================== */
+
+
+#banner{
+  background: url('../images/image-hivern.jpg') 0 0 no-repeat;
+  min-height: 154px;
+  margin-bottom: 4px;
+}
+
+
+
+/* =============================================================================
+   |
+   |  Media Queries
+   |
+   ========================================================================== */
+/* =============================================================================
+   320px smartphone horitzontal
+   ========================================================================== */
+@media only screen and (min-width: 320px) {
+
+  .header-top{
+    background: url('../images/header-bg-hivern.png') left 10px no-repeat;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  /*
+    Menú Turisme
+  */
+  ul.turisme{
+    background: url('../images/bg-menu-hivern.jpg') 0 0 repeat-x;
+    display: block;
+    font-size: 13px;
+    height: 35px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  ul.turisme li{
+    display: inline-block;
+    height: 35px;
+  }
+  ul.turisme li a{
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Aller_Lt',Helvetica, Helvetica Neue, Arial;
+    padding: 6px 3px;
+    text-decoration: none;
+    height: 35px;
+  }
+
+
+}
+/* =============================================================================
+   480px smartphone horitzontal
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+
+  .header-top{
+    background: url('../images/header-bg-hivern.png') left 10px no-repeat;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  /*
+    Menú Turisme
+  */
+  ul.turisme{
+    background: url('../images/bg-menu-hivern.jpg') 0 0 repeat-x;
+    display: block;
+    font-size: 15px;
+    height: 35px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  ul.turisme li{
+    display: inline-block;
+    height: 35px;
+  }
+  ul.turisme li a{
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Aller_Lt',Helvetica, Helvetica Neue, Arial;
+    padding: 6px 5px;
+    text-decoration: none;
+    height: 35px;
+  }
+
+}
+
+/* =============================================================================
+   768px iPad vertical
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+  .header-top{
+    background: url('../images/header-bg-hivern.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  /*
+    Menú Turisme
+  */
+  ul.turisme{
+    background: url('../images/bg-menu-hivern.jpg') 0 0 repeat-x;
+    display: inline-block;
+    *display: inline;
+    font-size: 13px;
+    height: 35px;
+    margin: 0;
+    padding: 0px;
+    width: 52%;
+  }
+  
+  ul.turisme li{
+    display: inline-block;
+    height: 35px;
+  }
+  ul.turisme li a{
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Aller_Lt',Helvetica, Helvetica Neue, Arial;
+    padding: 6px 10px;
+    text-decoration: none;
+    height: 35px;
+  }
+
+
+
+}
+
+/* =============================================================================
+   1024px
+   ========================================================================== */
+@media only screen and (min-width: 1024px) {
+  .header-top{
+    background: url('../images/header-bg-hivern.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+
+
+  /*
+    Menú Turisme
+  */
+  ul.turisme{
+    background: url('../images/bg-menu-hivern.jpg') 0 0 repeat-x;
+    display: inline-block;
+    *display: inline;
+    font-size: 14px;
+    height: 35px;
+    margin: 0;
+    padding: 0px;
+    width: 51%;
+  }
+  
+  ul.turisme li{
+    display: inline-block;
+    height: 35px;
+  }
+  ul.turisme li a{
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Aller_Lt',Helvetica, Helvetica Neue, Arial;
+    padding: 6px 15px;
+    text-decoration: none;
+    height: 35px;
+  }
+
+
+}

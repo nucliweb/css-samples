@@ -1,0 +1,221 @@
+/*	Typography CSS */
+/*	Autor: joan@nucliweb.net */
+body{ font-family: Georgia, "Times New Roman", Times, serif;}
+
+#book .title {display: block; font-size: 12px; color: #FFF; white-space: nowrap;}
+#book .from {display: block; font-size: 14px; color: #949494;}
+#book .author {display: block; font-size: 14px; color: #ef9f00;}
+
+.book-mini-link {text-decoration:none;}
+#book-mini .title {display: block; font-size: 11px; color: #FFF; white-space: nowrap; font-style: normal; font-weight:normal;}
+#book-mini .from {display: block; font-size: 13px; color: #949494;}
+#book-mini .author {display: block; font-size: 13px; color: #ef9f00;}
+
+
+#offert h2 {font-size: 18px; color: #ef9f00; font-style:italic; font-weight: bold; margin-bottom: 3px; line-height:20px;}
+#offert p {font-size: 12px; color: #FFF; line-height:14px;}
+
+#offert-mini h2 {font-size: 14px; color: #ef9f00; font-style:italic; font-weight: bold; line-height:16px; position: relative;left: -50px;}
+
+#gift h2, #gift-mini h2 {font-size: 16px; color: #ef9f00; font-weight: bold; margin-bottom: 3px;}
+#gift p, #gift-mini p {font-size: 14px; color: #FFF; line-height:15px;}
+
+#footer {font-family: Arial, Helvetica, sans-serif; font-size: 13px;color: #FFF;}
+
+.contact span {color: #ef9f00;}
+.contact strong {color: #FFF; font-weight:normal;}
+.contact a {color: #FFF; text-decoration: none; background: url(../images/foot-mail.gif) 0 3px no-repeat; padding-left: 20px; margin: 0px 15px;}
+.contact a strong{color: #ef9f00;}
+.contact a:hover {text-decoration: underline;}
+
+.social-home a:hover {color: #FFF; text-decoration: underline;}
+.social-home a.facebook-home{ background:url(../images/foot-home-facebook.gif) 0 0 no-repeat; padding-left: 20px; color:#CDCDCD; text-decoration:none; margin-right: 5px;}
+.social-home a.twitter-home{ background:url(../images/foot-home-twitter.gif) 0 0 no-repeat; padding-left: 20px; color:#CDCDCD; text-decoration:none;margin-right: 5px;}
+.social-home a.youtube-home{ background:url(../images/foot-home-youtube.gif) 0 0 no-repeat; padding-left: 20px; color:#CDCDCD; text-decoration:none;}
+
+.legal a {color: #CDCDCD; text-decoration: none;}
+.legal a:hover {text-decoration: underline;}
+
+
+.title{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #11253c;
+}
+.subtitle{
+	font-size: 16px;
+	font-weight: normal;
+	color: #ef9f00
+}
+.description p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	text-align:justify;
+	color: #5d5d5d;
+}
+.description_ext p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align:justify;
+	color: #333;
+}
+.description_ext strong{ color:#2c64a4; font-weight: bold;}
+.desc-detail{
+	display: block;
+	text-align: right;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 10px;
+}
+
+.title-children{
+	background: url(../images/title-bg.gif) 0 0 no-repeat #ef9f00;
+	padding: 8px 25px;
+	color: #FFF;
+	font-size: 20px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: -20px;
+}
+.description-children{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	text-align:justify;
+	color: #5d5d5d;	
+	margin-bottom: 20px;
+}
+.schedule,
+.more-info{
+	font-size: 16px;
+	color: #313131;
+}
+.schedule span,
+.more-info span{
+	display: inline-block;
+	color: #767676;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.box-children h3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 10px;
+	background: url(../images/border-bottom.gif) bottom left repeat-x;
+}
+
+.box-children p,
+.box-wemove p{
+	font-size: 14px;
+	color: #FFF;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.box-children strong,
+.box-wemove strong{
+	color: #11253c;
+}
+
+.box-children span{
+	background-color: #e8edf2;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #5d5d5d;
+	font-weight: normal;
+	display: block;
+	padding: 10px;
+	margin-top: 10px;
+}	
+.box-wemove h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 10px 35px;
+	background: url(../images/border-bottom.gif) bottom left repeat-x;
+}
+
+.title-col-right{
+	background: url("../images/border-bottom.gif") repeat-x scroll left bottom transparent;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+}
+
+.date{color:#003470; font-style:italic;}
+.new a{ text-decoration:none;}
+.new p{ color: #1a1a1a; font-size:14px;}
+
+.link{ 
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.link div.links{
+	background-color: #E0E0E0;
+	padding: 10px;	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.link div.links:hover{background-color: #afc3d9;}
+
+.number-link{
+	font-size: 24px;
+	background-color: #839dbc;
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-right: 10px;
+	padding: 5px 15px;
+	display:inline-block;
+	float:left;
+}
+.title-link{
+	font-size: 20px;
+	color: #839dbc;
+	float: left;
+	display: block;	
+}
+.detail-link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5D5D5D;	
+}
+.date-list{
+	font-size: 16px;
+	background-color: #839dbc;
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-right: 10px;
+	padding: 5px 15px;
+	display:inline-block;
+	float:left;
+}
+.link-new{
+	font-size: 14px;
+	background-color: #839dbc;
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-top: 5px;
+	padding: 5px 15px;
+	display:inline-block;
+	float:right;
+}

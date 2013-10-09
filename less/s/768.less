@@ -1,0 +1,39 @@
+nav{
+	ul.menu{
+
+		li{
+			
+			a,a:visited{
+				display: block;
+				height: 80px;
+				text-align: center;
+				padding: 5px;
+				color: white;
+				.line-height(16);
+				position: relative;
+				.font-size(14);
+				&::before{
+					content: attr(data-number);
+					display: block;
+					.font-size(18);
+					margin-top: 5px;
+					margin-bottom: 3px;
+				}
+			}
+
+		}
+	}
+}
+/*  Home ----------------------------- */
+.content-home{
+	height: 410px;
+	padding-right: 50px;
+	h1{
+		.font-size(50);
+		.line-height(50);
+		padding-left: 380px;
+		font-weight: normal;
+		margin-top: 90px;
+	}
+
+}

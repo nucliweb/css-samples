@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	border: 1px solid #d0d2d4;
+	padding: 10px;
+	padding: 20px;
+}
+.containerSections{
+	background: url(../../images/community/bg-communities-agoras.jpg) top right repeat-y;
+	border: 1px solid #d0d2d4;
+	padding: 20px 40px;
+	margin-bottom: 20px;
+}
+h1.CiA{
+	font-size: 28px;
+	line-height: 45px;
+	color: #0093D0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d0d2d4;
+}
+h2.CiA{
+	font-size: 24px;
+	line-height: 45px;
+	color: #0093D0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d0d2d4;
+}
+
+h1{
+	font-size: 24px;
+	color: #0093D0;
+	margin-bottom: 20px;
+}
+
+.blockComAgo{
+	margin-bottom: 10px;
+}
+.linkComAgo li{	
+	font-size: 14px;
+	line-height: 16px;
+	background: url(../../images/arrowGrey.gif) 0 0px no-repeat;
+	padding-left: 24px;
+	color: #424A52;
+	margin-bottom: 5px;
+}
+
+.linkComAgo li a{
+	color: #424A52;
+	text-decoration: none;
+}
+
+.legend{
+	text-align: right;
+	padding: 0px 10px;
+}
+.legend a{
+	display:inline-block;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #0093D0;
+	font-size: 11px;
+}
+.legend a:hover{
+	text-decoration: underline;
+}
+
+
+.linkBEO{
+	text-decoration: none;
+	color: #626262;
+	font-style: italic;
+	margin-right: 0px;
+}
+.logoBEO{
+	position:absolute;
+	top: 0px;
+	left: 15px;
+	zoom: 1;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	height: 32px;
+	z-index: 1000;
+}
+#topColumnLeft{
+	float: left;
+}
+#topColumnMiddle{
+	float: left;
+	text-align:center;
+}
+#topColumnRight{
+	float: right;
+}
+
+
+#form{
+	width: 530px;
+	display:block;
+	border: 1px solid #f4f4f4;
+	padding: 10px;}
+.form-row{
+	display: block;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.form-row-last{
+	display: block;
+	padding: 10px 0px;
+	text-align:right;
+}
+.form-row span{
+	display: inline-block;
+	width: 200px;
+}
+.agoraFieldText{
+	border: 1px solid #CCCCCC;
+	padding: 4px 8px;
+	color: #666;
+	width: 300px;
+}
+.agoraFieldNumber{
+	border: 1px solid #CCCCCC;
+	padding: 4px 8px;
+	color: #666;
+	width: 50px;
+}
+.agoraFieldArea{
+	border: 1px solid #CCCCCC;
+	padding: 4px 8px;
+	color: #666;
+	width: 500px;
+	height: 50px;
+	margin-top: 5px;
+}
+.agoraButton{
+	border: 1px solid #0093D0;
+	font-size: 12px;
+	padding: 4px 12px;
+	background-color: #f4f4f4;
+	margin-right: 8px;
+;}

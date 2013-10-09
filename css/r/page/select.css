@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../../images/select/background.jpg) 0 0 repeat-x;
+	padding-top: 212px;
+	text-align: center;
+}
+img{
+	padding: 0px 31px;
+	border: 0;
+}
+
+.toolTipCorporate{
+	position: absolute;
+	top: 320px;
+	left: 50%;
+	margin-left: -330px;
+	display: none;
+}
+.toolTipWork{
+	position: absolute;
+	top: 320px;
+	left: 50%;
+	margin-left: 130px;
+	display: none;
+}
+.toolTipTop{
+	background: url(../../images/bgToolTip.gif) 0 0 no-repeat;
+	width: 208px;
+	height: 10px;
+}
+.toolTipConntet{
+	background: url(../../images/bgToolTipContent.gif) 0 0 repeat-y;
+	width: 188px; /* 208px - padding*/
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #36424a;
+	line-height: 14px;
+	text-align: left;
+}
+.toolTipBottom{
+	background: url(../../images/bgToolTip.gif) 0 -10px no-repeat;
+	width: 208px;
+	height: 10px;
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* 	CSS Document
+	projecte: Turisme l'Escala
+	data: Juny 2010
+	desenvolpament: joan@dmesfont.cat
+*/
+
+body,a,p,span,td,h1,h2,h3,h4,h5,h6,h7{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#datepicker{font-size: 0.7em;}
+h1.home{
+	background: url(../images/title-home-bg.gif) 0 0 no-repeat;
+	font-size: 1.25em;
+	font-weight: bold;
+	font-style:italic;
+	color: #FFF;
+	padding-left: 20px;
+}
+.text-home{
+	width: 340px;
+	float:left;
+	margin-left: 10px;
+	font-size: 0.8em;
+	color: #313131;
+	text-align: justify;
+}
+.featured h2{
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #006bb6;
+}
+.featured .text{
+	font-size: 0.75em;
+	color: #313131;
+	text-align: justify;
+	height: 180px;
+	overflow: hidden;
+	line-height: 1em
+}
+
+b, strong{ font-weight: bold; color: #006bb6;}
+
+h1{
+	font-size: 22px;
+	/*font-style: italic;*/
+	font-weight: bold;
+	color: #1c5195;
+	border-bottom: 1px solid #a4b9d5;
+}
+h1.on-menjar{
+	background: url(../images/on-menjar-title-bg.jpg) 0 0 repeat-y;
+	font-size: 24px;
+	padding: 5px 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+	margin-top: -10px;
+}
+h1.on-dormir{
+	background: url(../images/on-dormir-title-bg.jpg) 0 0 repeat-y;
+	font-size: 24px;
+	padding: 5px 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+	margin-top: -10px;
+}
+.subtitol{
+	font-size: 15px;
+	/*font-style: italic;*/
+	font-weight: bold;
+	color: #5786c2;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.description{
+	font-size: 13px;
+	color: #313131;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.description p {margin-bottom: 10px;}
+h3.links-page{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #4974aa;
+	border-bottom: 1px solid #a4b9d5;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	display:none;
+}
+h3.docs-page{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #4974aa;
+	border-bottom: 1px solid #a4b9d5;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+h4.calendar-title{
+	font-size: 18px;
+	/*font-style: italic;*/
+	font-weight: bold;
+	color: #1c5195;
+	border-bottom: 1px solid #a4b9d5;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	text-align:right;
+	text-transform: capitalize;
+}
+
+.typeEvent{
+	display: block;
+	text-align: right;
+	padding-right: 10px;
+	margin-bottom: -18px;
+	font-size: 22px;
+	font-weight:bold;
+	color: #FFFFFF;
+}

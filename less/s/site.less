@@ -1,0 +1,319 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Page =================================================== */
+
+// 1. ROOT 					==============================
+
+@-webkit-viewport { 
+width : device-width; }
+
+@-moz-viewport { 
+width : device-width; }
+
+@-ms-viewport { 
+width : device-width; }
+
+@-o-viewport { 
+width : device-width; }
+
+@viewport { 
+width : device-width; }
+
+html {
+	background : @bodycolor; 
+	font-size : 62.5%;
+	-webkit-overflow-scrolling : touch; 
+	-webkit-tap-highlight-color : lighten(@basecolor, 75%); 
+	-webkit-text-size-adjust : 100%; 
+	-ms-text-size-adjust : 100%;
+}
+
+body { 
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-color : transparent;
+	font-family : @basefont;
+	.font-size();
+	line-height : @baselineheight;
+	color : @textcolor;
+}
+
+.wrapper{
+	max-width: 960px;
+	padding: 0px 10px;
+	margin: 10px auto;
+}
+/*  Header ----------------------------- */
+/*  Home ----------------------------- */
+.content-home{
+	background: url(images/anim.png) 0 0 no-repeat #f8f9fb;
+	height: 310px;
+	padding-right: 50px;
+	h1{
+		font-family: 'ChaparralPro-Light', 'Times New Roman', Serif;
+		font-weight: normal;
+		.font-size(10);
+		.line-height(10);
+		padding-left: 200px;
+		font-weight: normal;
+		margin-top: 50px;
+		b,strong{
+			color: @color1;
+		}
+	}
+	
+}
+.icons{
+	float: right;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	a{
+		background: url(images/icons.png) no-repeat;
+		display: inline-block;
+		width: 29px;
+		height: 29px;
+		text-indent: 100%;
+		overflow: hidden;
+		&.home 	{background-position: 0 0;}
+		&.search{background-position: -28px 0px;}
+		&.mail 	{background-position: -56px 0px;}
+	}
+}
+
+nav{
+	display: none;
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li{
+			float: left;
+			width: 12.5%;
+			margin: 0px;
+			a,a:visited{
+				display: block;
+				height: 10px;
+				text-indent: 100%;
+				overflow: hidden;
+			}
+			a:hover{
+				text-decoration:none;
+			}
+			&.item1{background-color: @color1}
+			&.item2{background-color: @color2}
+			&.item3{background-color: @color3}
+			&.item4{background-color: @color4}
+			&.item5{background-color: @color5}
+			&.item6{background-color: @color6}
+			&.item7{background-color: @color7}
+			&.item8{background-color: @color8}
+		}
+	}
+}
+
+div.nav{
+	display: block;
+
+	div{
+		float: left;
+		width: 12.5%;
+		margin: 0px;
+		height: 10px;
+		&.item1{background-color: @color1}
+		&.item2{background-color: @color2}
+		&.item3{background-color: @color3}
+		&.item4{background-color: @color4}
+		&.item5{background-color: @color5}
+		&.item6{background-color: @color6}
+		&.item7{background-color: @color7}
+		&.item8{background-color: @color8}
+	}
+}
+
+/*  breadcrumb ----------------------------- */
+.breadcrumb{display:none;}
+/*  Home ----------------------------- */
+.content-home{
+	background: url(images/home.jpg) 0 0 no-repeat;
+	width: 100%;
+	height: 410px;
+	padding-right: 50px;
+	text-align: right;
+	h1{
+		//border-bottom: 1px solid lighten(@footercolor,25%);
+		font-family: 'ChaparralPro-Light', 'Times New Roman', Serif;
+		font-weight: normal;
+		.font-size(60);
+		.line-height(60);
+		padding-left: 405px;
+		font-weight: normal;
+		margin-top: 110px;
+		b,strong{
+			color: @color1;
+		}
+	}
+	a{
+		font-weight: bold;
+		color: @basecolor;
+		position: relative;
+		margin-right: 30px;
+		padding-right: 10px;
+		span{
+			position: absolute;
+			top: -6px;
+			left: 100%;
+			width: 28px;
+			height: 29px;
+			background: url(images/icons.png) -85px 0px no-repeat;
+
+		}
+	}
+}
+
+/*  Footer ----------------------------- */
+
+footer{
+	border-top: 1px solid lighten(@footercolor,25%);
+	color: @footercolor;
+	font-family: 'DroidSans',Helvetica,Arial,Sans-Serif;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	div{
+		padding-right: 10px;
+	}
+	.column-20{
+		float:left;
+		padding-right: 10px;
+		width: 20%;
+	}
+	.column-22-5{
+		float:left;
+		padding-right: 10px;
+		width: 22.5%;
+	}
+	.column-25{
+		float:left;
+		padding-right: 10px;
+		width: 25%;
+	}
+	.column-32-5{
+		float:left;
+		width: 32.5%;
+	}
+	.column-33{
+		float:left;
+		padding-right: 10px;
+		width: 33.333333%;
+	}
+	.column-40{
+		width: 40%;
+		float: left;
+	}
+	.column-50{
+		width: 50%;
+		float: left;
+		&:first-child{padding-right: 0px;}
+	}
+	.column-60{
+		width: 60%;
+		float: left;
+	}
+	h4{
+		.font-size(11);
+
+		font-family: 'DroidSans-Bold',Helvetica,Arial,Sans-Serif;
+		font-weight: bold;
+		//letter-spacing: -1px;
+		margin-bottom: 5px;
+	}
+	ul{
+		margin-left: -8px;
+		.font-size(11);
+		color: lighten(@footercolor,25%);
+		li{
+			.line-height(18);
+			a,a:visited{
+				color: @footercolor;
+				display: inline-block;
+				margin-left: -5px;
+			}
+		}
+	}
+	a.socials{
+		background: url(images/icons.png) no-repeat;
+		text-indent: 100%;
+		display: inline-block;
+		height: 28px;
+		width: 27px;
+		overflow: hidden;
+		margin-right: 5px;
+		&.blog 		{background-position: -113px 0;}
+		&.slideshare {background-position: -140px 0;}
+		&.youtube 	{background-position: -167px 0;}
+	}
+	.aenor{
+		/*position: relative;
+		height: 110px;*/
+		text-align: right;
+		/*img{
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			right:0;
+		}*/
+	}
+	.footer{
+		border-top: 1px solid lighten(@footercolor,25%);
+		color: @footercolor;
+		font-family: 'DroidSans',Helvetica,Arial,Sans-Serif;
+		margin-top: 10px;
+		padding-top: 10px;
+		img{
+			float:left;
+			display: inline-block;
+			margin-right: 10px;
+			padding-top: 4px;
+		}
+		p{
+			.font-size(11);
+			.line-height(13);
+			padding: 0px;
+			margin: 0px;
+			a{
+				color: @color2;
+				display: inline-block;
+				&:first-child{margin-left: 10px}
+			}
+		}
+	}
+}
+
+.icon-sigre{
+	position: absolute;
+	left: 300px;
+	top: 216px;
+	z-index: 100;
+	filter: alpha(opacity=0);
+	     -khtml-opacity: .0;
+	       -moz-opacity: .0;
+	            opacity: .0;
+}
+
+.tar{text-align: right}
+.tal{text-align: left}
+.tac{text-align: center}
+.fl{float: left;}
+.p0{padding:0px;}
+.posr{position: relative;}
+.posa{position: absolute;}

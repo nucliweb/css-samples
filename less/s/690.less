@@ -1,0 +1,141 @@
+nav{
+	ul.menu{
+
+		li{
+			a,a:visited{
+				display: block;
+				height: 85px;
+				text-align: center;
+				padding: 5px;
+				color: white;
+				.line-height(16);
+				position: relative;
+				.font-size(14);
+				&::before{
+					content: attr(data-number);
+					display: block;
+					.font-size(18);
+					margin-top: 5px;
+					margin-bottom: 3px;
+				}
+			}
+		}
+	}
+}
+
+/*  Home ----------------------------- */
+.content-home{
+	//background: url(images/home.jpg) 0 0 no-repeat;
+	//background-image: url(images/anim.png);
+	//background-repeat: no-repeat;
+	background-color: #f8f9fb;
+	//background-position: 0 0px;
+	//animation: arbol-animation 1.25s 1 linear; 
+    //-webkit-animation: arbol-animation 1.25s 1 linear; 
+    //-moz-animation: arbol-animation 1.25s 1 linear;
+
+	//background-size: cover;
+	//width: 100%;
+	position: relative;
+	height: 310px;
+	padding-right: 50px;
+	h1{
+		font-family: 'ChaparralPro-Light', 'Times New Roman', Serif;
+		font-weight: normal;
+		.font-size(40);
+		.line-height(40);
+		padding-left: 340px;
+		font-weight: normal;
+		margin-top: 90px;
+		b,strong{
+			color: @color1;
+		}
+	}
+	
+}
+.arbol {
+	display:inline-block;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-image:url(images/sigre-anim.png);
+	background-position: 0px -7600px;
+	width:365px;
+	height:400px;
+	/*animation: arbol-animation 3s 1 linear; 
+    -webkit-animation: arbol-animation 3s 1 linear; 
+    -moz-animation: arbol-animation 3s 1 linear;*/
+    position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+
+
+@keyframes arbol-animation {
+	5% { background-position: -0px -0px}
+	10% { background-position: -365px -0px}
+	15% { background-position: -730px -0px}
+	20% { background-position: -1095px -0px}
+	25% { background-position: -1460px -0px}
+	30% { background-position: -0px -400px}
+	35% { background-position: -365px -400px}
+	40% { background-position: -730px -400px}
+	45% { background-position: -1095px -400px}
+	50% { background-position: -1460px -400px}
+	55% { background-position: -0px -800px}
+	60% { background-position: -365px -800px}
+	65% { background-position: -730px -800px}
+	70% { background-position: -1095px -800px}
+	75% { background-position: -1460px -800px}
+	80% { background-position: -0px -1200px}
+	85% { background-position: -365px -1200px}
+	90% { background-position: -730px -1200px}
+	95% { background-position: -1095px -1200px}
+	100% { background-position: -1460px -1200px}
+}
+
+@-moz-keyframes arbol-animation {
+	5% { background-position: -0px -0px}
+	10% { background-position: -365px -0px}
+	15% { background-position: -730px -0px}
+	20% { background-position: -1095px -0px}
+	25% { background-position: -1460px -0px}
+	30% { background-position: -0px -400px}
+	35% { background-position: -365px -400px}
+	40% { background-position: -730px -400px}
+	45% { background-position: -1095px -400px}
+	50% { background-position: -1460px -400px}
+	55% { background-position: -0px -800px}
+	60% { background-position: -365px -800px}
+	65% { background-position: -730px -800px}
+	70% { background-position: -1095px -800px}
+	75% { background-position: -1460px -800px}
+	80% { background-position: -0px -1200px}
+	85% { background-position: -365px -1200px}
+	90% { background-position: -730px -1200px}
+	95% { background-position: -1095px -1200px}
+	100% { background-position: -1460px -1200px}
+}
+@-webkit-keyframes arbol-animation {
+	5% { background-position: -0px -0px}
+	10% { background-position: -365px -0px}
+	15% { background-position: -730px -0px}
+	20% { background-position: -1095px -0px}
+	25% { background-position: -1460px -0px}
+	30% { background-position: -0px -400px}
+	35% { background-position: -365px -400px}
+	40% { background-position: -730px -400px}
+	45% { background-position: -1095px -400px}
+	50% { background-position: -1460px -400px}
+	55% { background-position: -0px -800px}
+	60% { background-position: -365px -800px}
+	65% { background-position: -730px -800px}
+	70% { background-position: -1095px -800px}
+	75% { background-position: -1460px -800px}
+	80% { background-position: -0px -1200px}
+	85% { background-position: -365px -1200px}
+	90% { background-position: -730px -1200px}
+	95% { background-position: -1095px -1200px}
+	100% { background-position: -1460px -1200px}
+}

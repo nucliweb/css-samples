@@ -1,0 +1,99 @@
+/*
+Theme Name: Memoria SIGRE 2012
+*/
+
+// 1. ROOT 					==============================
+
+// CSS reset
+@import "reset.less";
+
+// Variables and mixins
+@import "variables.less";
+@import "mixins.less";
+
+// Site wide styles (html, body)
+@import "normalize.less";
+@import "site.less";
+
+// 2. TYPOGRAPHY 			==============================
+
+// Block level (h1, p) and text-level (em, strong) type
+@import "typography.less";
+
+// 3. COLOUR 				==============================
+
+// Colour interaction semantics
+@import "colour.less";
+
+// 4. TEXTURE 				==============================
+
+// Alerts, badges, boxes and gradients
+@import "texture.less";
+
+// Fonts
+@import "fonts.less";
+
+// 5. ELEMENTS 				==============================
+
+// Figures, images and other elements
+@import "elements.less";
+
+// Standard form controls
+@import "forms.less";
+
+// Button styles (optional)
+@import "buttons.less";
+
+// Tables
+@import "tables.less";
+
+// 6. LAYOUT 			==============================
+
+// Page level layout styles (banner, navigation, content, contentinfo)
+@import "page.less";
+
+//  7. VENDOR-SPECIFIC 		==============================
+@import "bootstrap.less";
+@import "fancybox.less";
+//  8. MODERNIZR 			==============================
+
+// @import "modernizr.less";
+
+//  9. TEMPLATE SPECIFICS 	==============================
+//  10. MEDIA QUERIES 		==============================
+
+@media print {
+@import "print.less";
+}
+
+@import "650.less";
+
+//@media only screen and (min-width: 650px) {
+//@import "650.less";
+//}
+@media only screen and (min-width: 690px) {
+@import "690.less";
+}
+
+// 768px
+@media only screen and (min-width: 768px) {
+@import "768.less";
+}
+
+// 992px
+@media only screen and (min-width: 900px) {
+@import "900.less";
+}
+
+// 1382px
+@media only screen and (min-width: 1382px) {
+@import "1382.less";
+}
+
+// 2x
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+@import "2x.less"; }
+

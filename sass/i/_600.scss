@@ -1,0 +1,90 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* 600 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+
+// Menu Header -----------------------------------
+.header-container{padding-top: 30px;}
+.headerMenu{
+	padding-right: 15px;
+	position:absolute;
+	text-align: right;
+	top:0;
+	width:100%;
+}
+.button-menu{display:none;}
+ nav{
+ 	height: auto;
+ 	overflow: hidden;
+	@include transition (height 1.0s ease-in-out);
+ 	
+ 	ul{
+ 		background-color: #c2c1c1;
+ 		margin-bottom: 1px;
+ 	}
+	li{
+		background-color: #c2c1c1;
+		background-image: none;
+		display: inline-block;
+		margin: 0;
+		width: auto;
+
+		a{
+			color:white;
+			display: block;
+			padding: 8px 15px;
+			text-shadow: 0px 1px 0px rgb(120,120,120);
+			&:hover{
+				background-color: $invertiaWebRed;
+				color: white;
+				text-decoration: none;
+				text-shadow: 0px 1px 0px rgb(0,0,0);
+			}
+		}
+	}
+ } // End nav
+
+
+section{
+	padding: 15px;
+	h2{
+		font-size: em(20);
+		font-weight: 300;
+		b::before{
+			content:'';
+			display:inline-block;
+		}
+	}
+	p{
+		color: #a09f9f;
+		font-size: em(14);
+		line-height: em(22);
+		text-align: justify;
+	}
+	.products{
+		margin-bottom: 15px;
+		text-align: center;
+		div{
+			display: inline-block;
+			text-align: center;
+			width: 23%;
+		}
+	}
+}
+
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

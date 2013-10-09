@@ -1,0 +1,93 @@
+/* =============================================================================
+   Estils específics de l'estació ESTIU
+   ========================================================================== */
+
+
+#banner{
+  background: url('../images/image-estiu.jpg') 0 0 no-repeat;
+  min-height: 154px;
+  margin-bottom: 4px;
+  margin-top: 35px;
+}
+
+
+
+/* =============================================================================
+   |
+   |  Media Queries
+   |
+   ========================================================================== */
+/* =============================================================================
+   320px smartphone horitzontal
+   ========================================================================== */
+@media only screen and (min-width: 320px) {
+  .header-top{
+    background: url('../images/header-bg-estiu.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  #banner{
+    background: url('../images/image-estiu.jpg') 0 0 no-repeat;
+    min-height: 154px;
+    margin-bottom: 4px;
+    margin-top: 155px;
+  }
+
+
+}
+/* =============================================================================
+   480px smartphone horitzontal
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  .header-top{
+    background: url('../images/header-bg-estiu.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  #banner{
+    background: url('../images/image-estiu.jpg') 0 0 no-repeat;
+    min-height: 154px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+  }
+}
+
+/* =============================================================================
+   768px iPad vertical
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+  .header-top{
+    background: url('../images/header-bg-estiu.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  #banner{
+    background: url('../images/image-estiu.jpg') 0 0 no-repeat;
+    min-height: 154px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+  }
+
+}
+
+/* =============================================================================
+   1024px
+   ========================================================================== */
+@media only screen and (min-width: 1024px) {
+  .header-top{
+    background: url('../images/header-bg-estiu.png') left 10px no-repeat;
+    height: 130px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  #banner{
+    background: url('../images/image-estiu.jpg') 0 0 no-repeat;
+    min-height: 154px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+  }
+
+}

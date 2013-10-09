@@ -1,0 +1,163 @@
+.menu{
+	//position: fixed;
+}
+.menu-btn{
+	background-color: #7cc242;
+	.border-radius(0,8px,8px,0);
+	text-align: right;
+	width: 110px;
+	.rotate(-90deg);
+	float: left;
+	width: 110px;
+	position: relative;
+	top: 38px;
+	left: -38px;
+	a{
+		color: white;
+		display: block;
+		padding: 5px 20px;
+		text-decoration: none;
+		position: relative;
+		.font-size(12);
+		padding-left: 30px;
+		&:hover{
+			color: white;
+			text-decoration: none;
+		}
+		&::before{
+			content:'';
+			display: block;
+			position: absolute;
+			top: 5px;
+			left: 10px;
+			height: 23px;
+			width: 23px;
+			background: url(images/menu-arrows.png) 0 -46px no-repeat;
+		}
+	}
+	a.open{
+		&::before{
+			content:'';
+			background: url(images/menu-arrows.png) 0 -69px no-repeat;
+
+		}
+	}
+
+}
+div.title{
+	h3{
+		margin-left: 1%;
+	}
+}
+article.home-des-1{
+	padding-top: 0px;
+	section{
+		width: 47%;
+		float: left;
+		margin: 0 1%;
+	}
+}
+article.home-des-2{
+	padding-top: 10px;
+	section{
+		width: 22%;
+		float: left;
+		margin: 0 1%;
+	}
+}
+article.home-des-3{
+	section{
+		width: 32%;
+		margin-right: 1%;
+	}
+}
+
+.web-corporativa, .web-corporativa:visited{
+	float: left;
+	width: 32.3333%;
+	margin-right: 1%;
+}
+.blog-corporativo, .blog-corporativo:visited{
+	float: left;
+	width: 32.3333%;
+	margin-right: 1%;
+}
+.memoria, .memoria:visited{
+	float: left;
+	width: 33.3333%;
+}
+.social-links{
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+
+aside.articulo1{
+	width: 28%;
+	float: left;
+	margin-right: 2%;
+
+}
+
+article.articulo1{
+	padding-top: 0px;
+	width: 70%;
+	float: right;
+    h2{
+    	.font-size(18);
+
+    }
+    h1{
+    	.font-size(40);
+    	max-width: 90%;
+    }
+}
+
+
+
+
+aside.articulo2{
+	width: 29%;
+	float: right;
+
+}
+
+article.articulo2{
+	padding-top: 0px;
+	width: 66%;
+	margin-right: 2%;
+	float: left;
+    h2{
+    	.font-size(18);
+
+    }
+    h1{
+    	.font-size(40);
+    	max-width: 100%;
+    }
+}
+
+
+.zoom{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	filter: alpha(opacity=50);
+	     -khtml-opacity: .50;
+	       -moz-opacity: .50;
+	            opacity: .50;
+}
+a:hover .zoom{
+	filter: alpha(opacity=100);
+	     -khtml-opacity: 1;
+	       -moz-opacity: 1;
+	            opacity: 1;
+}
+
+.boletines-anteriores{
+	a.anteriores{
+		float: right;
+	}
+}
+.logo{margin-top: 0px;}

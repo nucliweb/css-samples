@@ -1,0 +1,338 @@
+﻿@import-once "/rrhh/app/css/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import-once "/rrhh/app/css/mixins.less";
+@import-once "/rrhh/app/css/rrhh.less";
+
+
+/******************************************************************************
+    Module/App specific styles
+******************************************************************************/
+#main-wrapper {
+
+    #page-content {
+        //padding: 40px 0;
+        
+        h2, h3 {
+        	color: @blue;
+        	text-shadow: @white 1px 1px 1px;
+        }
+        
+        .btn-back {
+        	[class^="icon-"], [class*=" icon-"] {
+				margin-top: 2px;
+			}        	
+        }
+
+        #side-bar {
+        	height: 100%;
+
+        	.btn {
+        		font-family: inherit;
+        		font-size: 18px;
+        		font-weight: 100;
+        		display: block;
+        	}
+        }
+        
+        .header {
+        	position: relative;
+        	
+        	h3 {
+        		margin-bottom: 5px;
+        	}
+        	
+            .nav {
+            	margin-bottom: 0px;
+            	margin-top: 15px;
+            	
+            	a {
+            		white-space: nowrap;
+            	}
+            }
+        }
+        
+        #view-content {
+        	background-color: @white;
+        	height: 100%;
+        	color: @gray;
+        	
+        	&.row-fluid {
+        		margin-top: 0;
+        	}
+
+            .value {
+                font-weight: bold;
+                color: @grayDark;
+            }
+            
+			section {
+				padding: 20px;
+				
+				h4 {
+					margin-top: 0;	
+				}
+			}
+			
+			form, fieldset {
+				margin: 0;
+				
+	    		legend {
+	    			img {
+	    				margin-bottom: 5px;
+	    				margin-right: 5px;
+	    			}
+	    		}
+                	
+        		label {
+            		font-size: 12px;
+            		line-height: 10px;
+            		color: @blue;
+            	}
+    			
+    			.required {
+    				color: red;
+    			}
+            	
+                select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    padding: 0px 3px;
+                    vertical-align: middle;
+                    color: @gray;
+                    display: block;
+                    width: 100%;
+                    min-height: 26px;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    float: left;
+                }
+                
+                .form-actions {
+                	//margin: 0;
+                	padding: 0;
+                	background-color: transparent;
+                	border: 0;
+    			
+        			.btn-large {
+        				font-family: 'Open Sans';
+        				font-weight: 100; //-> Lighter
+        			}
+        			
+        			#btn-form-cancel {
+	                	background-color: transparent;
+	                	
+	                	&:hover {
+	                		background-color: @grayLighter;
+	                	}
+        			}
+                }
+                
+			} // form
+            
+		} // #view-content (general styles)
+		
+        
+        #user-search-view {
+        	margin-top: 20px;
+        	
+        	#view-content {
+        	
+                section#user-search {
+                	margin: 20px 0 0;
+            	
+                	input#search-query {
+                		width: 395px;
+                	}
+                } // #user-search
+                
+                section#search-results {
+                	ul {
+                		list-style: none;
+                		margin: 0;
+                		padding: 0;
+                	}
+                	
+                    .user-box {
+                    	padding: 10px;
+                    	border-bottom: 1px dotted @grayLight;
+                    	.clearfix;
+                    	
+                    	&:hover {
+                    		background-color: @grayLighter;
+                    	}
+                    	
+                    	.fullname {
+                    		font-size: 16px;
+                    		font-weght: bold;
+                    	}
+                    	
+                    	
+                    	
+                    } // .user-box
+                    
+                } // #search-results
+                
+        	} // #view-content
+        	
+        } // #user-search-view
+        
+        
+        #user-main-view {
+        	
+        	#view-content {
+        	    
+        	    	section {
+
+    	    			.nav {
+    	    				margin-top: -57px;
+    	    			}
+        	    			
+                	} // section 
+                	
+
+            		#datos-personales {
+            			.data {
+	            			position: relative;
+            			
+							#employee-picture-wrapper,
+							#employee-picture-wrapper-edit {
+								display: inline-block;
+								
+								#employee-picture-inner-wrapper {
+									position: relative;
+									border: 1px solid #ddd;
+									padding: 5px;
+									background-color: @white;
+									
+									img {
+										width: 120px;
+										min-width: 120px;
+										max-width: 120px;
+                                        height: auto;
+										/*height: 150px;
+										min-height: 150px;*/
+										max-height: 150px;
+										display: block;
+									}
+									
+									#upload-progress {
+										position: absolute;
+										bottom: 0px;
+										left: 0px;
+										#translucent > .background(@green, .5);
+										filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f46a546', endColorstr='#7f46a546'); /* IE */
+										font-size: 13px;
+										font-weight: normal;
+										color: @white;
+										width: 0%;
+										height: 26px;
+										line-height: 26px;
+										text-align: center;
+										display: none;
+									}
+									
+								} // #employee-picture-inner-wrapper
+								
+								#btn-edit-picture {
+									width: 100%;
+									height: 26px;
+									line-height: 26px;
+									text-align: center;
+									cursor: pointer;
+									margin-top: 2px;
+									display: none;
+									
+									&:hover {
+										background-color: @grayLighter;
+										text-decoration: none;
+									}
+								}
+								
+							} // #employee-picture-wrapper, employee-picture-wrapper-edit
+							
+							#employee-picture-wrapper {
+								position: absolute;
+								right: 0px;
+								top: 0px;
+							}
+							
+							#employee-picture-wrapper-edit {
+								position: relative;
+								margin-bottom: 10px;
+							}
+							
+						} // .data
+            		}
+            		
+            		#datos-empresa {
+            		}
+            		
+            		#datos-trayectoria {
+            		}
+            		
+            		#datos-familia {
+            		}
+            		
+            		#datos-formacion {
+            		}
+        		
+        	} // #view-content
+        
+            #section-links-nav {
+            	width: 220px;
+            	
+            	&.affix {
+            		top: 20px;
+            	}
+            	
+            	&.affix-top {
+            		margin-top: 55px;
+            	}
+            	
+            	&.affix-bottom {
+            		top: 20px;
+            		position: fixed;
+            	}
+            	
+            	.btn {
+            		display: block;
+            		margin-bottom: 10px;
+            		text-align: left;
+            		padding: 5px 20px;
+            		
+            		img {
+            			margin-right: 10px;
+            		}
+
+					[class^="icon-"], [class*=" icon-"] {
+						margin-top: 8px;
+					}
+            	}
+            } // #section-links
+        
+        } // #user-main-view
+        
+    } // #page-content
+        
+} // #main-wrapper
+
+input[type="text"].error {
+    border: 1px solid @red;
+}
+
+.nowrap {
+	white-space: nowrap
+}
+
+#main-wrapper #page-content #user-main-view #view-content section#datos-test {
+
+    .clearfix();
+
+    .nav {
+        margin-top:0px;
+    }
+}
+
+.plupload-form {
+	margin: 0px;
+}

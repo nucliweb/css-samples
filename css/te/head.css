@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 	CSS Document
+	projecte: Turisme l'Escala
+	data: Juny 2010
+	desenvolpament: joan@dmesfont.cat
+*/
+
+#head{
+	background: url(../photos/interior/Escala.jpg) 0 0 no-repeat #4094ff;;
+	height: 180px; /* 185px - 5px of border-bottom*/
+	border-bottom: 5px solid #f37021;
+}

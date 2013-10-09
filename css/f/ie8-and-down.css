@@ -1,0 +1,17 @@
+/* CSS Document */
+#display-inner{
+	display:block;
+	overflow:hidden;
+	width: 990px;
+	height: 380px;
+	margin-top: -20px;
+}
+#display-nav-dots{
+	position: relative;
+	top: 350px;
+	left: 850px;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	width: 140px;
+}

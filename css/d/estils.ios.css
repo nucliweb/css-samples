@@ -1,0 +1,634 @@
+a{ text-decoration:none; outline:none;}
+a:hover{text-decoration:none; outline:none;}
+ul, li{
+margin:0px;
+padding:0px;
+list-style:none;
+list-style-type:none;
+}
+
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	color:#9e2605;
+	font-weight:bold;
+	font-style:italic;
+	text-transform:lowercase;
+	
+}
+
+h2 span{
+	background-color:#FFF;
+	
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+	line-height:34px;
+	padding: 5px 10px;
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	background:#CCC;
+	
+}
+
+#idiomes{
+	text-align:center;
+}
+
+#idiomes img{
+	padding: 5px 10px;
+	text-align:center;
+}
+
+#logo{
+	background-color: #647b89;
+	text-align:center;
+}
+
+#address{
+	background-color: white;
+	margin: 50px 0px 0px 0px;
+	border-top:1px dashed #9e2605; 
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#9e2605;
+	padding: 20px 10px 30px 10px;
+}
+#address a{ color:#9e2605; text-decoration: none; text-decoration:underline; font-weight:bold}
+
+
+
+<!--  menu -->
+#menu{display:none; margin: 0; padding: 10px;}
+#menu li{
+	margin-bottom: 10px;
+	background-color: #9e2605;
+	padding: 5px;
+	color: #FFFFFF;
+	-webkit-border-radius: 3px;
+	font-size:12px;
+}
+#menu li a{
+	color: #FFFFFF;
+	display: block;
+	padding-left: 10px;
+}
+
+#contentMenu{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.menu{
+	background-color:#d5a399;
+	padding: 5px;
+	color: #fff;
+	display: block;
+	margin-bottom: 10px;
+	text-align:center;
+	-webkit-border-radius: 3px;
+	font-size:12px;
+}
+<!-- fi menu -->
+
+<!--  ofertes -->
+#offers{
+margin-left:24px;
+margin-top:25px;
+}
+
+.colOffer{
+width:298px;
+float:left;
+}
+
+.offer{
+width:278px;
+background-color: #b0b4b4;
+float:left;
+position:relative;
+padding: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #999;
+
+}
+
+.offerActive{
+height:auto;
+
+margin-bottom:10px;
+}
+
+.offer .foto{
+width:96px;
+height:89px;
+overflow:hidden;
+float:left;
+padding:7px 0px 0px 8px;
+}
+
+.offer .info{
+width:150px;
+float:left;
+padding:7px 0px 0px 10px;
+}
+
+.offer .info strong{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#763103;
+font-weight:normal;
+}
+
+.offer .info span{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#FFFFFF;
+}
+
+.offer a.more{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#763103;
+display:block;
+width:88px;
+padding-top:8px;
+text-align:right;
+float:left;
+}
+
+.offer a.booking{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#FFFFFF;
+font-weight:bold;
+display:block;
+width:100px;
+height:31px;
+line-height:28px;
+text-align:center;
+background-image:url(../images/bgBooking.gif);
+background-repeat:no-repeat;
+background-position:left top;
+float:left;
+margin-left:5px;
+}
+
+.offerActive a.booking{
+background-image:url(../images/bgBookingActive.gif);
+background-repeat:no-repeat;
+background-position:left top;
+}
+
+.offer a.booking:hover{
+background-image:url(../images/bgBookingOver.gif);
+background-repeat:no-repeat;
+background-position:left top;
+}
+
+.offerActive a.booking:hover{
+background-image:url(../images/bgBookingActiveOver.gif);
+background-repeat:no-repeat;
+background-position:left top;
+padding-bottom:20px;
+}
+
+.offer .price{
+position:relative;
+width:60px;
+height:41px;
+background-image:url(../images/bgOfferPrice.png);
+background-repeat:no-repeat;
+background-position:left top;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+text-transform:uppercase;
+line-height:14px;
+padding-top:19px;
+margin-left:5px;
+float:left;
+z-index:20;
+}
+
+.offer .price a{
+color:#FFFFFF;
+}
+
+.offer .price a strong{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:18px;
+}
+
+.offer .price a span{
+color:#FFFFFF;
+font-size:15px;
+}
+
+.offer .price a em{
+color:#FFFFFF;
+font-size:12px;
+font-style:normal;
+}
+
+.offer .moreinfo{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#FFFFFF;
+display:none;
+width:250px;
+padding:5px 9px;
+text-align:justify;
+padding-bottom:30px;
+}
+
+.offer .offerBottom{
+position:absolute;
+left:0px;
+bottom:-1px;
+height:32px;
+width:274px;
+display:none;
+background-image:url(../images/bgOfferBottom.gif);
+background-repeat:no-repeat;
+background-position:left top;
+background-color:#f3f3f3;
+z-index:1;
+}
+
+<!--  fi ofertes -->
+
+<!--  centre immersio  -->
+
+.fillsBase{
+	
+}
+
+.fillsBase a{
+	-web-kit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border:1px solid #666;
+	background-color:#427b98;
+	text-decoration:none;
+	color: #fff;
+	padding: 5px;
+	margin: 10px 0px;
+	display:block;
+}
+
+
+.img1img{
+	text-align:center;
+}
+.img1img img{
+	border: 1px solid #FFF;
+}
+.m2imgs{
+	float:left;
+	margin: 20px 5px;
+	width: 45%;
+	height: 100px;
+	background-color:white;
+	border: 1px solid #656565;
+	overflow:hidden;
+}
+
+
+.2img{
+	float:left; 
+	width:49%;
+	border:1px solid white;
+}
+
+#baseFill, .base{
+	color:#6F6D6D;
+	font-size:12px;
+	line-height:18px;
+} 
+#baseFill h1{
+	color:#9e2605;
+}
+
+#baseFill p{
+	display:inline-block;
+}
+
+h4.baseH4{
+	font-size:12px;
+	line-height: 14px;
+}
+
+.ruta{
+	margin: 5px 0;
+}
+
+.path{ margin-bottom: 13px; margin-top: 2px; color:#40606f;}
+.path a{
+	text-decoration: none;
+	color:#4f0000;
+	padding: 2px 5px;
+	display:inline-block;}
+.path a:hover{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #e8e8e8;
+	color: #4e7887;}
+.path span{color: #e62b27;}
+
+
+h4.baseH4{
+	font-size:12px;
+	line-height: 14px;
+}
+
+#todo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#3f3e3e;
+}
+
+.foto img{
+	border: 3px solid #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom:10px;
+}
+.info{
+	color:##6F6D6D;
+}
+
+
+<!--  fi centre immersio  -->
+
+/* init: IMMERSIONS ------------------------------------- */
+#immersions{
+	margin-bottom: 45px;
+	border:1px solid #00AAC1;
+	width: 660px;
+	height:920px;
+	overflow:hidden;
+	position: absolute;
+}
+#immersions h1{
+	font-size:18px;
+	line-height:21px;
+}
+
+.puntsImmersio{
+	background-color:#768a95;
+	padding: 10px 20px;
+	border:2px solid white;
+}
+
+.puntsImmersio h3{
+	color:#9e2605;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size:14px;
+}
+.puntsImmersio a{
+	color: #FFF;
+	padding: 3px 6px;
+	text-decoration: none;
+	font-size:12px;
+	line-height: 20px;
+}
+
+.puntsImmersio div{
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.headerDivers{
+	color:#FFF;
+	display:inline-block;
+}
+.headerDivers h2{
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-top: 0 0;
+	text-transform:uppercase;
+	
+}
+.headerDivers a{
+	margin-right: 10px;
+	margin-top: -4px;
+	display:inline-block;
+	
+}
+.text_puntsImmersio{
+	padding-top: 10px;
+	color:#6F6D6D;
+	font-size:12px;
+	line-height:18px;
+}
+/* end: IMMERSIONS ------------------------------------- */
+
+/* on som ------------------------------------- */
+
+#situation{
+padding-bottom:15px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#3f3e3e;
+}
+
+#situation h1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#9e2605;
+}
+#situation strong{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#9e2605;
+}
+#situation strong.coord{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#9e2605;
+	font-size: 12px;
+	display:block;
+}
+
+#gMap{
+	height:200px;
+	border: 2px solid white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.googleMaps{
+	margin-top:8px;
+	height:200px;
+}
+
+.logosSituation a img{
+	width: 100%;
+}
+
+/* fi on som ------------------------------------- */
+
+
+/*CONTACTE*/
+#contact{
+	padding-left:10px;
+	margin-top:5px;
+}
+
+
+#contact h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	color:#000000;
+	font-weight:bold;
+}
+
+.colContactLeft{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+}
+
+.colContactLeft a, .colContactRight a{
+	font-family:Arial, Helvetica, sans-serif;
+	
+	color:#252424;
+	text-decoration:underline;
+}
+
+.colContactLeft a#linkSituation{
+	display:inline;
+	padding: 4px 8px;
+	border:1px solid #930310;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	background:#930310;
+	text-decoration:none;
+	text-align:right;
+	float:right;
+}
+
+.contactForm{
+	padding-top:25px;
+}
+
+.contactForm .input{
+	display:block;
+	width:150px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999999;
+	background-color:#FFFFFF;
+	margin:0px;
+	padding:0px;
+	padding-left:3px;
+	margin-bottom:12px;
+	border-top:1px solid #727272;
+	border-right:1px solid #b4b4b4;
+	border-bottom:1px solid #dadada;
+	border-left:1px solid #b4b4b4;
+	margin-right:15px;
+	float:left;
+}
+
+.contactForm .textarea{
+	width:100%;
+	height:100px;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999999;
+	background-color:#FFFFFF;
+
+	margin-bottom:12px;
+	margin-top:5px;
+	border-top:1px solid #727272;
+	border-right:1px solid #b4b4b4;
+	border-bottom:1px solid #dadada;
+	border-left:1px solid #b4b4b4;
+}
+
+.contactForm .field{
+	width:58px;
+	text-align:left;
+	padding-right:5px;
+	color:#666;
+}
+
+.contactForm .button{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#00000;
+	margin:0px;
+	padding:0px;
+	padding:0px 5px;
+	float:right;
+	margin-top:18px;
+	margin-right:18px;
+}
+
+.contactForm #lopdText{
+	position:absolute;
+	right:25px;
+	top:605px;
+	width:442px;
+	padding:8px;
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#616161;
+	text-align:left;
+	line-height:12px;
+	display:none;
+}
+
+.contactForm #lopdText strong{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#616161;
+}
+
+
+.c{ clear:both; line-height: 0; font-size: 0px;}
+.block{ display: block;}
+.fl{ float: left;}
+.fr{ float: right;}
+.hidden{ display:none;}
+.dLb{display:inline-block;}
+
+.m0{margin:0px}     .mt0{margin-top:0px}   .mr0{margin-right:0px}   .mb0{margin-bottom:0px}   .ml0{margin-left:0px}
+.m5{margin:5px}     .mt5{margin-top:5px}   .mr5{margin-right:5px}   .mb5{margin-bottom:5px}   .ml5{margin-left:5px}
+.m10{margin:10px}	.mt10{margin-top:10px} .mr10{margin-right:10px} .mb10{margin-bottom:10px} .ml10{margin-left:10px}
+.m15{margin:15px}	.mt15{margin-top:15px} .mr15{margin-right:15px} .mb15{margin-bottom:15px} .ml15{margin-left:15px}
+.m20{margin:20px}	.mt20{margin-top:20px} .mr20{margin-right:20px} .mb20{margin-bottom:20px} .ml20{margin-left:20px}
+.m24{margin:24px}	.mt24{margin-top:24px} .mr24{margin-right:24px} .mb24{margin-bottom:24px} .ml24{margin-left:24px}
+.m25{margin:25px}	.mt25{margin-top:25px} .mr25{margin-right:25px} .mb25{margin-bottom:25px} .ml25{margin-left:25px}
+.m30{margin:30px}	.mt30{margin-top:30px} .mr30{margin-right:30px} .mb30{margin-bottom:30px} .ml30{margin-left:30px}
+
+
+.p0{padding:0px}	.pt0{padding-top:0px}   .pr0{padding-right:0px}   .pb0{padding-bottom:0px}   .pl0{padding-left:0px}
+.p5{padding:5px}	.pt5{padding-top:5px}   .pr5{padding-right:5px}   .pb5{padding-bottom:5px}   .pl5{padding-left:5px}
+.p10{padding:10px}	.pt10{padding-top:10px} .pr10{padding-right:10px} .pb10{padding-bottom:10px} .pl10{padding-left:10px}
+.p15{padding:15px}	.pt15{padding-top:15px} .pr15{padding-right:15px} .pb15{padding-bottom:15px} .pl15{padding-left:15px}
+.p20{padding:20px}	.pt20{padding-top:20px} .pr20{padding-right:20px} .pb20{padding-bottom:20px} .pl20{padding-left:20px}
+.p24{padding:24px}	.pt24{padding-top:24px} .pr24{padding-right:24px} .pb24{padding-bottom:24px} .pl24{padding-left:24px}
+.p25{padding:25px}	.pt25{padding-top:25px} .pr25{padding-right:25px} .pb25{padding-bottom:25px} .pl25{padding-left:25px}
+.p30{padding:30px}	.pt30{padding-top:30px} .pr30{padding-right:30px} .pb30{padding-bottom:30px} .pl30{padding-left:30px}
